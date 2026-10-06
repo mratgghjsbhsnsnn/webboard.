@@ -1,0 +1,11 @@
+name = "webboard"
+compatibility_date = "2024-09-01"
+pages_build_output_dir = "./public"
+
+[vars]
+ADMIN_EMAIL = "thanakunaemsun@gmail.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "webboard-db"
+database_id = "ใส่-database_id-ที่ได้จากคำสั่ง-d1-create"
